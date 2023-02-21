@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 2em;
+}
 /*Booting*/
 *{
     padding: 0;
@@ -20,6 +25,25 @@ nav a{
     color: black;
 }
 
+
+.products{
+    /* width: 90%; */
+    margin: auto;
+    text-align: center;
+}
+.big{
+    background-color: red;
+    height: 3em;
+    width: 65%;
+    margin: auto;
+}
+.small{
+    background-color: aqua;
+    width: 25%;
+    display: inline-block;
+    padding: 2em;
+    padding-top: 2em;
+}
 
 /*Footer*/
 footer{
