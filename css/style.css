@@ -1,0 +1,50 @@
+/*Booting*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+/*Nav*/
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+/*Body*/
+.products{
+    /* width: 90%; */
+    margin: auto;
+    text-align: center;
+}
+.big{
+    background-color: red;
+    height: 3em;
+    width: 85%;
+    margin: auto;
+}
+.small{
+    background-color: aqua;
+    width: 24%;
+    display: inline-block;
+    padding: 2em;
+    margin-top: 2em;
+    /* padding-top: 2em; */
+}
+
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer div img{
+    width: 2em;
+}
