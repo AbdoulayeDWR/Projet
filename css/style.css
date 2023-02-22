@@ -19,25 +19,12 @@ nav a{
     text-decoration: none;
     color: black;
 }
-/*Body*/
-.products{
-    /* width: 90%; */
-    margin: auto;
+hr {
+    border: none;
+    border-top: 3px solid #000;
+    overflow: visible;
     text-align: center;
-}
-.big{
-    background-color: red;
-    height: 3em;
-    width: 85%;
-    margin: auto;
-}
-.small{
-    background-color: aqua;
-    width: 24%;
-    display: inline-block;
-    padding: 2em;
-    margin-top: 2em;
-    /* padding-top: 2em; */
+    height: 5px;
 }
 
 /*Footer*/
