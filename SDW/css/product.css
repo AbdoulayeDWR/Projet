@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    margin: 0 10%;
+}
+
+main > div {
+    width: 30%;
+    height: 100%;
+}
+
+section#product {
+    width: 70%;
+    height: 100%;
+    border: none;
+    justify-content:left;
+}
+#photos, #tiny{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#big{
+    width: 76%;
+}
+#tiny img{
+    width: 40%;
+    margin: 1.5%;
+}
+#price{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    margin: 0;
+}
