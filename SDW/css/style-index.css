@@ -1,0 +1,73 @@
+main {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+  border: 2px solid;
+  justify-content: center;
+}
+section img{
+  width: 100%;
+  height: 80%;
+}
+article {
+  width: 26%;
+  margin: 1vh auto;
+  /* background: orange; */
+}
+article.big {
+width: 100%;
+background: url("../media/images/cover4.jpg");
+background-size: cover;
+/* width: 106%;
+margin-left: -3%; */
+width: 100%;
+height: 30em;
+border: #000 solid;
+}
+article.small{
+  width: 5%;
+}
+  
+a {   
+  color: black;   
+}
+
+a:active {
+  color: red;
+}
+
+a[tabindex]:focus {
+  color:red;
+  outline: none;
+}
+  
+article > div{
+  width: 100%;
+  /* background: purple; */
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  border: 1px #696969 solid;
+
+}
+article div img{
+  width: 106%;
+  margin-left: -3%;
+}
+article div span{
+  /* position: absolute;
+  bottom: 1em;
+  left: 1em; */
+  display: block;
+  width:40%;
+  margin-right: 60%;
+  /* background: lightgreen; */
+  padding: .4em .6em;
+}
